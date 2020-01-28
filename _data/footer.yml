@@ -1,14 +1,14 @@
 - title: Pages
   links:
-    - name: Home
+    - name: 首页
       link: /
     - name: Portfolio
       link: /portfolio/
-    - name: Blog
+    - name: 文档
       link: /blog/
-    - name: About
+    - name: 关于我们
       link: /about/
-    - name: Contact
+    - name: 联系我们
       link: /contact/
 - title: Social
   links:

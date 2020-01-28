@@ -1,12 +1,12 @@
-title: Urban Template
-url: "https://teal-worm.cloudvent.net"
+title: AntCloud
+url: "http://antcloud.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: AntCloud提供一站式的音视频连麦,录制SDK解决方案
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -16,9 +16,9 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: AntCloud.io
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - http://www.antcloud.io
 
 timezone: Etc/UTC
 
