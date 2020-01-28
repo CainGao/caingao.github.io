@@ -2,7 +2,7 @@
   links:
     - name: 首页
       link: /
-    - name: Portfolio
+    - name: 应用场景
       link: /portfolio/
     - name: 文档
       link: /blog/
@@ -10,10 +10,10 @@
       link: /about/
     - name: 联系我们
       link: /contact/
-- title: Social
+- title: 合作伙伴
   links:
-    - name: Facebook
-      link: https://facebook.com/cloudcannon/
+    - name: 3ttech
+      link: https://3ttech.cn
       social_icon: Facebook
       new_window: true
     - name: Twitter
