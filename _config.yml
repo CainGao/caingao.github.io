@@ -1,100 +1,82 @@
-title: AntCloud
-url: "http://antcloud.io"
+title: AnyData
+url: "http://anydata.top"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+name: Your Name # ex. DONGChuan
+email: caingao@anydata.top
+location: Beijing.China # ex. Nice, France
+company: AnyData
+company_url: http://anydata.top
+github_url: https://github.com/caingao # ex. https://github.com/DONGChuan
+github_username: CainGao
+description: ....
+favicon: favicon.png # Image must be in assets/images
+repository: caingao/caingao.github.io # ex. DONGChuan/DONGChuan.github.io
 
-# Default description in social shares for the jekyll-seo-tag gem
-description: AntCloud提供一站式的音视频连麦,录制SDK解决方案
+## Gem
+gems:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
 
-# Author details for the jekyll-seo-tag gem
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
 
-# Social details for the jekyll-seo-tag gem
-social:
-  name: AntCloud.io
-  links:
-    - http://www.antcloud.io
+source:      .
+destination: ./_site
 
-timezone: Etc/UTC
+quiet:    false
+defaults: []
 
-collections:
-  staff_members:
-    output: false
-  clients:
-    output: true
+kramdown:
+  input: GFM
+  enable_coderay: true
 
+# Disque
+disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+
+# Pagination
 paginate: 10
-paginate_path: "/blog/:num/"
-permalink: pretty
+paginate_path: 'page:num'
 
-jekyll-archives:
-  enabled:
-    - "categories"
+# Navigation. If you do not like these modules, just remove them :D
+navs:
+  -
+    href: /
+    label: Home
 
-plugins:
-  - "jekyll-feed"
-  - "jekyll-seo-tag"
-  - "jekyll-paginate"
-  - "jekyll-archives"
+  -
+    href: /open-source
+    label: Open-Source
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
+  -
+    href: /blog
+    label: Blog
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      _options:
-        content:
-          width: 960
-          height: 2000
-  - scope:
-      path: ""
-      type: "clients"
-    values:
-      layout: "client"
-      _options:
-        image_path:
-          width: 2000
-          height: 2000
-  - scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 600
-          height: 600
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: "index.html"
-      type: "pages"
-    values:
-      layout: "default"
+  -
+    href: /bookmark
+    label: Bookmark
 
-# -----------
-# CloudCannon
+  -
+    href: /about
+    label: About
 
-social_icons:
-  - Facebook
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
+# Sidebar to show popular repo
+side_bar_repo_limit: 5 # Number of repos to show
+
+# Google Analytics
+analytics :
+  provider : google
+  google :
+    tracking_id : 'tracking_id'  # ex. UA-72165600-X
+
+
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
+skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
+skill_mobile_app_keywords: [Android, Sketch UI Desgin]
