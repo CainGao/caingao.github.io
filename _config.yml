@@ -6,21 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Hello.I'm Gao. # ex. I m Chuan
-name: Gao # ex. DONGChuan
+title: Hello.I'm Gao.
+name: Gao
 email: caingao@anydata.top
-location: Beijing. # ex. Nice, France
+location: Beijing.
 company: AnyData
 company_url: anydata.top
-github_url: https://github.com/caingao # ex. https://github.com/DONGChuan
-github_username: # ex. DONGChuan
+github_url: https://github.com/caingao
+github_username:
 description: ...
-favicon: favicon.png # Image must be in assets/images
-repository: caingao/caingao.github.io # ex. DONGChuan/DONGChuan.github.io
+favicon: favicon.png
+repository: caingao/caingao.github.io
 
 # The base hostname & protocol for your site
-# For local test, please use http://localhost:4000
-# For production, use your github page url. ex. http://dongchuan.github.io
 url: http://anydata.top
 
 ## Gem
@@ -48,7 +46,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: my_disque_settings
 
 # Pagination
 paginate: 10
