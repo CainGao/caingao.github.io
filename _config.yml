@@ -82,6 +82,8 @@ analytics :
   provider : google
   google :
       tracking_id : 'G-LPV4JLKBQV'  # ex. UA-72165600-X
+  baidu :
+      tracking_id : 'edb133b878fff44856d1b01efe8f08ab'  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
